@@ -52,7 +52,7 @@
                             dataType: 'json',
 
       success: function(response){
-//responce
+//responces
 }
                 })
                 console.log(data);
