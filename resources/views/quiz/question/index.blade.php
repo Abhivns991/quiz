@@ -20,14 +20,14 @@
         font-family: "Roboto Condensed", Sans-serif !important;
     }
 
-    .quiz_start{ padding-top:5%;padding-bottom:5%;}
+    .quiz_start{ padding-top:2%;padding-bottom:2%;}
         .q-card {
         width: 70%;
         margin: auto;
         padding: 20px 40px 40px 40px;
         border-radius: 10px;
-        background-color: #f9f5f5;
-        box-shadow: inset 0px 0px 15px 0px #c2b4b4;
+        background-color: #ffffff;
+        box-shadow: inset 0px 0px 15px 0px #dcd5d5;
     }
 
     .quest_img img {
@@ -107,6 +107,10 @@
         margin-left: 10px;
     }
 
+   
+
+    
+
 
 
     @media(max-width:576px){
@@ -140,10 +144,28 @@
         top: -1px;
         height: 18px;
         width: 18px;
+        }
+        .options {
+            padding-left: 24px;
+        }
+        .quest_img span {
+        font-size: 20px;
+        }
+        .sub {
+        padding: 3px !important;
+        font-size: 14px !important;
+        }
     }
-    .options {
-        padding-left: 24px;
-    }
+    
+    @media(max-width:768px){
+        .quest_img span {
+            font-size: 20px;
+        }
+        .sub {
+        padding: 3px !important;
+        font-size: 14px !important;
+        }
+
     }
   </style>
   </head>
@@ -157,14 +179,17 @@
               <h3>Question Details</h3>
               <h4> Total Questions: <span style="font-weight: 600;"> 1 / 10</span></h4>
               </div>
+             
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 timer">
               <h4> Time:  <span id="counter" class="countdown"></span></h4>
               </div>
               
             </div>
+
             <div id="question_div">
                 @include('quiz.question.question')
             </div>
+            
           </div>
     </div>
 </section>
