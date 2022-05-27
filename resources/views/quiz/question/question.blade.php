@@ -7,7 +7,7 @@
     border-top: 1px solid #bc0808;
 }
 .sub {
-        font-weight: 600;font-size: 14px;padding: 6px;background-color: #bc0808;color: white;border-radius: 8px;
+        font-weight: 600;font-size: 14px !important;padding: 6px;background-color: #bc0808;color: white;border-radius: 8px;
     }
 </style>
 @foreach ($questions as $key => $question)

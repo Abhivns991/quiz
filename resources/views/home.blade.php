@@ -204,18 +204,30 @@
 </div>
   @endif
   @if (!$auth)
-    <div class="container-fluid"  style="background: url({{asset('/images/bg-login.png')}});background-size: cover; background-position: center; background-repeat: no-repeat; position: relative; width: 100%; padding-top: 50px; padding-bottom: 40px;">
+    <div class="container-fluid"  style="background: url({{asset('/images/b_bg2.png')}});background-size: cover; background-position: bottom; background-repeat: no-repeat; position: relative; width: 100%; padding-top: 10px; padding-bottom: 100px;">
       <div class="container">
     <div class="row banner">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 banner-detail">
-            <h1> BRILLIANT - 30 </h1>
-            <h5>पूर्णतः निःशुल्क शिक्षा</h5>
-            <h5>NEET /AIIMS Preparation</h5>
-            <h6>(Only for Xth BOARD (CBSE/ICSE/Bihar BOARD))</h6>
-            <!-- <a href="">पूर्णतः निःशुल्क शिक्षा</a> -->
+          <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12 banner-detail">
+            <h5>देश के इतिहास का सबसे बड़ी परीक्षा NEET / AIIMS की तैयारी के लिए</h5>
+            <img src="{{asset('/images/IMA_logo.png')}}" class="ban-img">
+            <h3>Presents</h3>
+            <img src="{{asset('/images/b_30.png')}}" class="ban-img1">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12"> 
+                <img src="{{asset('/images/01icon.png')}}" class="icon-img1">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                 <img src="{{asset('/images/02icon.png')}}" class="icon-img1">
+                </div>
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                 <img src="{{asset('/images/03icon.png')}}" class="icon-img1">
+                </div>
+            </div>
+
+           
           </div>
 
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
             <div class="login-page"  style="margin:auto;">
                 <h3 class="user-register-heading text-center">Login / Register</h3>
                 <form class="form login-form" method="POST" action="{{ route('site.signup') }}">
@@ -239,70 +251,122 @@
       </div>
     </div>
     </div>
+    
+      
     <section class="container section2">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="col-lg-12">
             <div class="cntbr">
-              <img class="imgbanner" src="https://brilliantpatna.com/wp-content/uploads/2021/03/BRILLIANT-BANNER-300x99.jpg">
-              <p>Take the test at a date and time of your choice</p>
-              <!-- <p><b>Timings </b>: 9AM to 7PM Daily | <b>Duration</b> : 35 mins</p>
-              <p><b>Mode </b>: Online (from home)</p>
-              <h5>Free Registration</h5>
-               <span> Use Code <b>iACST2223</b> </span>  -->
+              <h2>BRILLIANT-30 Test Schedule </h2>
+              <h6>Eligibility Criteria</h6>
+              <p>The Applicant must be appearing/passed in class X <sup>th</sup> board exam 2022.</p>
+              <h1><u>Exam Methodology</u></h1>
+              <div class="row ">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="clr-round">1<sup>th</sup> Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> PT (Online)</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="clr-round">2<sup>nd</sup> Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> Mains (Offline)</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                <p class="clr-round">Final Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> Interview (Offline)</p>
+                </div>
+              </div>
+
+              <div class="row ">
+                <div class="col-lg-12">
+                <h4 class="h4-title">
+                  <span class="count"> 01</span>
+                           PT Exam (Online Mode)
+                </h4>
+                <div class="panel-body">
+                          <p>Any time... Any where... (Through a link,QR Code or website)</p>
+                          <h4>Result: On spot results</h4>
+                          <div class="row exm-card">
+                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
+                          <h5>Link</h5></div>
+                            <div class="col-lg-4 col-md-4 col-sm-12"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
+                            <h5>QR Code</h5>
+                          </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
+                          <h5>Website</h5></div>
+                          </div>
+                        </div>
+              
+                </div>
+                </div>
+              
+                <section class="section3">
+                    <div class="panel-group" id="accordion1">
+                    <div class="panel panel-default">
+                      <div class="panel-heading"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
+                        <h4 class="panel-title"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
+                           <span class="count"> 01 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
+                           PT Exam (Online Mode)
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="Exampleone">
+                        <div class="panel-body">
+                          <p>Any time... Any where... (Through a link,QR Code or website)</p>
+                          <h4>Result: On spot results</h4>
+                          <div class="row exm-card">
+                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
+                          <h5>Link</h5></div>
+                            <div class="col-lg-4 col-md-4 col-sm-12"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
+                            <h5>QR Code</h5>
+                          </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
+                          <h5>Website</h5></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
+                        <h4 class="panel-title"data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
+                        <span class="count"> 02 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
+                        Mains Exam (Offline Mode)
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="Exampletwo">
+                        <div class="panel-body">
+                          <p>District Wise Test schedule to be declared on 31<sup>th</sup> May (Tue) 2022</p>
+                          <h4>Result: 9<sup>th</sup> June 2022</h4>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                      <div class="panel-heading" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1">
+                        <h4 class="panel-title"data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1">
+                        <span class="count"> 03 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
+                        Interview Round (Offline Mode)
+                        </h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="Examplethree">
+                        <div class="panel-body">
+                        <p>To be Conducted at Brilliant House ,Patna from  11<sup>th</sup> to  15<sup>th</sup> June 22</p>
+                          <h4>Final Result: 19<sup>th</sup> June 2022</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                  <h2 class="comm">Classes Commencement: 28<sup>th</sup> June 2022</h2>
+               
             </div>
         </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <div class="cntbr">
-              <img class="imgbanner" src="https://brilliantpatna.com/wp-content/uploads/2021/03/BRILLIANT-BANNER-300x99.jpg">
-              <p>Take the test at a date and time of your choice</p>
-              <!-- <p><b>Timings </b>: 9AM to 7PM Daily | <b>Duration</b> : 35 mins</p>
-              <p><b>Mode </b>: Online (from home)</p>
-              <h5>Free Registration</h5>
-               <span> Use Code <b>iACST2223</b> </span>  -->
-            </div>
-        </div>
-
-        
       </div>    
     </section>
 
-    <section class="section3">
-      <div class="container">
-      <div class="panel-group" id="accordion1">
-      <div class="panel panel-default">
-        <div class="panel-heading"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
-          <h4 class="panel-title"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
-              How to choose the best web development company in Varanasi?
-          </h4>
-        </div>
-        <div class="panel-collapse collapse in" id="Exampleone">
-          <div class="panel-body">
-            <p>Hiring a web development company can be tricky, especially if you are doing it for the time. There are countless factors you need to check before hiring a company to build your website. Some of these factors are experience, portfolio, industry reputation, communication, and budget.</p>
-          </div>
-        </div>
-      </div>
-      <div class="panel panel-default">
-        <div class="panel-heading" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
-          <h4 class="panel-title"data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
-              Why is having a mobile-friendly or responsive website so important?
-          </h4>
-        </div>
-        <div class="panel-collapse collapse" id="Exampletwo">
-          <div class="panel-body">
-            <p>Since the advent of smartphone and smart devices, people like to browse websites on their mobile devices. That means simply having a desktop version of your website will not serve you well. Building a mobile-friendly and responsive website is crucial if you want to attract both mobile and desktop users.</p>
-          </div>
-        </div>
-      </div>
-  	 </div>
-      </div>
-    </section>
+    
 
     <section class="section4">
       <div class="container">
         <div class="row">
-          <h2 class="whatmk">ABOUT BRILLIANT - 30</h2>
-          <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+          <h2 class="whatmk">About Brilliant, Patna </h2>
+          <p class="text-justify"> Talking about NEET preparations , for over 3 decades BRILLIANT , Patna has by far been the number one choice amongst the students for NEET grooming .  BRILLIANT has been the most sought after and the premier institute amongst all existing NEET coaching institutions in Bihar.  BRILLIANT equips NEET aspirants with personalized courses to serve their needs across the Nation through their specialized centers and their easily accessible interactive online platform.  It also offers a range of scholarships and discounts on fees for the meritorious students and has a state - of - their art faculty team to cater to the personal preparation needs for individual students which propel them to qualify NEET with Rank.</p>
         </div>
 
        
