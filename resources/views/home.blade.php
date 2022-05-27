@@ -292,7 +292,7 @@
                     <div class="row exm-card">
                       <div class="col-lg-4 col-md-4 col-sm-4 text-center mtt"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
                     <h5>Link</h5></div>
-                      <div class="col-lg-4 col-md-4 col-sm-4 text-center"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
+                      <div class="col-lg-4 col-md-4 col-sm-4 text-center"> <img src="{{asset('/images/qr-brilliant.png')}}" class="w-50"> <br>
                       <h5>QR Code</h5>
                     </div>
                       <div class="col-lg-4 col-md-4 col-sm-4 text-center mtt"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
