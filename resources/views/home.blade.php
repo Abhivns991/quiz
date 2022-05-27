@@ -213,13 +213,13 @@
             <h3>Presents</h3>
             <img src="{{asset('/images/b_30.png')}}" class="ban-img1">
             <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12"> 
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"> 
                 <img src="{{asset('/images/01icon.png')}}" class="icon-img1">
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                  <img src="{{asset('/images/02icon.png')}}" class="icon-img1">
                 </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                  <img src="{{asset('/images/03icon.png')}}" class="icon-img1">
                 </div>
             </div>
@@ -227,7 +227,7 @@
            
           </div>
 
-          <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
+          <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 mtt">
             <div class="login-page"  style="margin:auto;">
                 <h3 class="user-register-heading text-center">Login / Register</h3>
                 <form class="form login-form" method="POST" action="{{ route('site.signup') }}">
@@ -257,103 +257,84 @@
       <div class="row">
         <div class="col-lg-12">
             <div class="cntbr">
+            <div class="text-center">
               <h2>BRILLIANT-30 Test Schedule </h2>
               <h6>Eligibility Criteria</h6>
               <p>The Applicant must be appearing/passed in class X <sup>th</sup> board exam 2022.</p>
               <h1><u>Exam Methodology</u></h1>
               <div class="row ">
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                 <p class="clr-round">1<sup>th</sup> Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> PT (Online)</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                 <p class="clr-round">2<sup>nd</sup> Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> Mains (Offline)</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-4">
                 <p class="clr-round">Final Round <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i> Interview (Offline)</p>
                 </div>
               </div>
+              </div>
 
-              <div class="row ">
-                <div class="col-lg-12">
-                <h4 class="h4-title">
+              <div class="row exam">
+                <div class="col-lg-12 ex-box">
+                <div class="row ex-box-inner">
+                <div class="col-lg-1 col-md-1 col-sm-2  col-xs-3">
                   <span class="count"> 01</span>
-                           PT Exam (Online Mode)
-                </h4>
-                <div class="panel-body">
-                          <p>Any time... Any where... (Through a link,QR Code or website)</p>
-                          <h4>Result: On spot results</h4>
-                          <div class="row exm-card">
-                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
-                          <h5>Link</h5></div>
-                            <div class="col-lg-4 col-md-4 col-sm-12"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
-                            <h5>QR Code</h5>
-                          </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
-                          <h5>Website</h5></div>
-                          </div>
-                        </div>
-              
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-10 col-xs-9 mt-e">
+                  <h4 class="h4-title"> PT Exam (Online Mode)</h4>
+                  <h4 class="h4-title">Any time... Any where... (Through a link, QR Code or website)</h4>
+                  <h5 class="h5-title">Result: On spot results</h5>
                 </div>
                 </div>
-              
-                <section class="section3">
-                    <div class="panel-group" id="accordion1">
-                    <div class="panel panel-default">
-                      <div class="panel-heading"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
-                        <h4 class="panel-title"  data-target="#Exampleone" data-toggle="collapse" data-parent="#accordion1">
-                           <span class="count"> 01 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
-                           PT Exam (Online Mode)
-                        </h4>
-                      </div>
-                      <div class="panel-collapse collapse in" id="Exampleone">
-                        <div class="panel-body">
-                          <p>Any time... Any where... (Through a link,QR Code or website)</p>
-                          <h4>Result: On spot results</h4>
-                          <div class="row exm-card">
-                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
-                          <h5>Link</h5></div>
-                            <div class="col-lg-4 col-md-4 col-sm-12"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
-                            <h5>QR Code</h5>
-                          </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
-                          <h5>Website</h5></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="panel panel-default">
-                      <div class="panel-heading" data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
-                        <h4 class="panel-title"data-target="#Exampletwo" data-toggle="collapse" data-parent="#accordion1">
-                        <span class="count"> 02 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
-                        Mains Exam (Offline Mode)
-                        </h4>
-                      </div>
-                      <div class="panel-collapse collapse in" id="Exampletwo">
-                        <div class="panel-body">
-                          <p>District Wise Test schedule to be declared on 31<sup>th</sup> May (Tue) 2022</p>
-                          <h4>Result: 9<sup>th</sup> June 2022</h4>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="panel panel-default">
-                      <div class="panel-heading" data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1">
-                        <h4 class="panel-title"data-target="#Examplethree" data-toggle="collapse" data-parent="#accordion1">
-                        <span class="count"> 03 <i class="fa fa-hand-o-right" aria-hidden="true"></i></span>
-                        Interview Round (Offline Mode)
-                        </h4>
-                      </div>
-                      <div class="panel-collapse collapse in" id="Examplethree">
-                        <div class="panel-body">
-                        <p>To be Conducted at Brilliant House ,Patna from  11<sup>th</sup> to  15<sup>th</sup> June 22</p>
-                          <h4>Final Result: 19<sup>th</sup> June 2022</h4>
-                        </div>
-                      </div>
+                <div class="mtt">
+                    <div class="row exm-card">
+                      <div class="col-lg-4 col-md-4 col-sm-4 text-center mtt"><a href="https://brilliantpatna.com" target="blank">www.ima.brilliantpatna.com</a><br>
+                    <h5>Link</h5></div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 text-center"> <img src="{{asset('/images/qrlogo.png')}}" class="w-50"> <br>
+                      <h5>QR Code</h5>
+                    </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 text-center mtt"><a href="https://brilliantpatna.com" target="blank">www.brilliantpatna.com</a><br>
+                    <h5>Website</h5></div>
                     </div>
                   </div>
-                </section>
+                </div>
 
+
+                <div class="col-lg-12 ex-box mtt">
+                <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3">
+                  <span class="count"> 02</span>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-10 col-xs-9 mt-e">
+                  <h4 class="h4-title"> Mains Exam (Offline Mode)</h4>
+                  <h4 class="h4-title">District Wise Test schedule to be declared on 31th May (Tue) 2022</h4>
+                  <h5 class="h5-title">Result: 9th June 2022</h5>
+                </div>
+                </div>
+                </div>
+
+
+
+                <div class="col-lg-12 ex-box mtt">
+                <div class="row">
+                <div class="col-lg-1 col-md-1 col-sm-2  col-xs-3">
+                  <span class="count"> 03</span>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-10 col-xs-9 mt-e">
+                  <h4 class="h4-title">Interview Round (Offline Mode)</h4>
+                  <h4 class="h4-title">To be Conducted at Brilliant House ,Patna from 11th to 15th June 22</h4>
+                  <h5 class="h5-title">Final Result: 19th June 2022</h5>
+                </div>
+                </div>
+                </div>
+
+
+                </div>
+              
                   <h2 class="comm">Classes Commencement: 28<sup>th</sup> June 2022</h2>
+                  <h6 class="comm">Note: Interview will be held in"Brilliant House" Boring Road Patna 800013</h6>
                
             </div>
         </div>
@@ -364,22 +345,62 @@
 
     <section class="section4">
       <div class="container">
-        <div class="row">
           <h2 class="whatmk">About Brilliant, Patna </h2>
           <p class="text-justify"> Talking about NEET preparations , for over 3 decades BRILLIANT , Patna has by far been the number one choice amongst the students for NEET grooming .  BRILLIANT has been the most sought after and the premier institute amongst all existing NEET coaching institutions in Bihar.  BRILLIANT equips NEET aspirants with personalized courses to serve their needs across the Nation through their specialized centers and their easily accessible interactive online platform.  It also offers a range of scholarships and discounts on fees for the meritorious students and has a state - of - their art faculty team to cater to the personal preparation needs for individual students which propel them to qualify NEET with Rank.</p>
-        </div>
+          <div class="row">
+            <h5>Here is why 10000s of students across India trust BRILLIANT as the most effective personal mentorship offline/online course </h5>
+           
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <ul>
+              <li>Extremely focussed Personalized and Futuristic Teaching</li>
+              <li>Kota's best academic system & expert faculty team</li>
+              <li>Coaching by top NEET Faculties of Kota, Delhi & Patna </li>
+              <li>Cracking "Touch" NEET Topic So do'nt miss out on quality teaching</li>
+              <li>Guided, Data -Driven Daily Practice</li>
+              <li>Individual Perfromrance Analaytics</li>
+              <li>Online Classes</li>
+            </ul>
+          </div>
 
-       
-    </div>
-    </section>
-    <section class="section4">
-      <div class="container toppers" style="border-top: 1px dotted #cccccc; margin-top: 30px; padding-top: 20px;">
-        <img alt="NEET Topper" class="dis-desk" data-entity-type="file" data-entity-uuid="82397c29-2c86-4f91-a464-74c19e0df9cf" src="https://brilliantpatna.com/wp-content/uploads/2021/03/Neeraj-300x225.jpg">
-        <img alt="NEET Topper" class="dis-mob" data-entity-type="file" data-entity-uuid="82397c29-2c86-4f91-a464-74c19e0df9cf" src="https://brilliantpatna.com/wp-content/uploads/2021/03/Neeraj-300x225.jpg">
-        <img alt="JEE Topper" class="dis-desk" data-entity-type="file" data-entity-uuid="82397c29-2c86-4f91-a464-74c19e0df9cf" src="https://brilliantpatna.com/wp-content/uploads/2021/03/Neeraj-300x225.jpg">
-        <img alt="JEE Topper" class="dis-mob" data-entity-type="file" data-entity-uuid="82397c29-2c86-4f91-a464-74c19e0df9cf" src="https://brilliantpatna.com/wp-content/uploads/2021/03/Neeraj-300x225.jpg">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <ul>
+              <li>Experienced Faculty members</li>
+              <li>Personal Mentorship</li>
+              <li>Weekly Feedback to parents</li>
+              <li>Study material</li>
+              <li>Assignments</li>
+              <li>Daily Practice Book</li>
+              <li>NCERT Solution Book</li>
+              <li>Question Book</li>
+              <li>Doubt Clearing Sessions</li>
+            </ul>
+          </div>
+          </div>
+
+        <div class="row">
+           
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="md-card">
+            <img src="{{asset('/images/sahaj.png')}}" class="md-img1">
+              <h5>Dr.  Sahajanand Prasad Singh </h5>
+              <h4>National President of Indian Medical Association (IMA) </h4>
+            <p style="color:gray;text-align: justify; font-size:14px;">The Indian Medical Association (IMA) has been a pioneer in finding the best healthcare solutions for the society.  The IMA is delighted to be an official partner in the BRILLIANT 30 selection contests for hunting the best talent for NEET / AIIMS preparation.  Super 30 concept is very widely known for hunting talents for JEE examinations.  We're proud to be a part of a concept where we select the sharp budding minds for our Medicine Industry.  BRILLIANT , Patna is counted in one of the oldest and the pioneer Institutions for providing best results in competitive examinations with rank holders.  Through this talent hunt campaign, we trust BRILLIANT, Patna to guide and train the meritorious students for NEET preparations and help them achieve greater success in our industry.  To motivate the students further, the Institute shall be provided with the best guidance and counseling by IMA and secure a competitive advantage.  We convey our best wishes to the Institute for this ambitious venture and hope to see Bihar produce meritorious talents for the society.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="md-card">
+            <img src="{{asset('/images/ajaykumar.jpeg')}}" class="md-img1">
+              <h5>Ajay Kumar Pintu</h5>
+              <h4> Director ( Brilliant Group of Education ) </h4>
+            <p style="color:gray;text-align: justify; font-size:14px;">BRILLIANT Patna , over 3 decades has been a pioneer Institute for providing Rank holders in NEET and JEE.As a dynamic Institute , we have been observing a shortage of resources for NEET aspiring students .  We intend to cater to those students who doubt their dreams due to the lack of money or resources but who yearn to bring about better and significant changes in society.  Through our upcoming campaign for BRILLIANT 30_ we are giving a preparation platform for the doctor aspirants from the weaker sections of society.  The top 30 hand picked students shall be provided with free education and state of art faculties to groom them for the examination .  We are honored to have been chosen by the Indian Medical Association (IMA) for this revolutionary campaign to provide the best talents to the Medicine Industry.  Under their sheer guidance, our Institute shall be able to mentor the aspirants with their precise resources for the industry.  We intend to reach the maximum crowd and amplify the scholarship benefits to the best set of meritorious students in Bihar.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
+    
   @endif
 
 
